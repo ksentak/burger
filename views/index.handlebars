@@ -13,10 +13,9 @@
                     <div class="input-group">
                         <p class="lead">{{this.burger_name}}</p>
                         <span class="input-group-btn">
-
-                            <form action="burgers/update/{{this.id}}?_method=PUT" method="POST">
+                            <form>
                                 <input type="hidden" name="devoured" value="true">
-                                <button class="btn btn-danger text-warning" type="submit">Devour it!</button>
+                                <button id="changeDevoured"class="btn btn-danger text-warning" type="submit">Devour it!</button>
                             </form>
                         </span>
                     </div>
@@ -47,7 +46,7 @@
         <div class="col-sm-10 offset-1 text-center">
             <h2 class="text-center text-warning p-1 mt-3">Add a burger!</h2>
 
-            <form class="create-update-form" action="burgers/create" method="POST">
+            <form class="create-form">
                 <div class="form-group">
                     <textarea class="form-control input-lg" type="text" name="burger_name" row="3"></textarea>
                 </div>
