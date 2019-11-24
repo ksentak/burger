@@ -1,6 +1,6 @@
 $(function () {
 
-    $("#eatIt").on("click", function (event) {
+    $(".eatIt").on("click", function (event) {
         // Make sure to preventDefault on a submit event.
         event.preventDefault();
 
