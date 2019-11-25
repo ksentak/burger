@@ -14,13 +14,10 @@
                 {{#unless this.devoured}}
                 <li class="list-group-item">
                     <div class="input-group">
-                        <p class="lead">{{this.burger_name}}</p>
-                        <span class="input-group-btn">
-                            <form>
-                                {{!-- <input id="changeDevoured" type="hidden" name="devoured" value="true"> --}}
+                        <p class="lead col-sm-8 text-left">{{this.burger_name}}</p>
+                            <form class="col-sm-4 text-right">
                                 <button class="btn btn-danger text-warning eatIt" data-id="{{this.id}}" data-nowdevoured="{{devour}}" type="submit">Devour it!</button>
                             </form>
-                        </span>
                     </div>
                 </li>
                 {{/unless}}
