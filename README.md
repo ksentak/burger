@@ -2,7 +2,8 @@
 This application was created so a user can manipulate a SQL database on a live webpage. A user is able to add new burgers to the page and can also decide whether the burger is consumed or not.
 
 ## Deployed Link
-https://evening-ocean-20007.herokuapp.com/
+https://burger-app-0100.herokuapp.com/
+
 ---
 
 ![Screenshot](./app-screenshots/BurgersApp.png)
